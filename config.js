@@ -11,7 +11,7 @@ global.email ="bwabymoudy@gmail.com"
 global.location="Bamako,Mali."
 
 
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://kuldiprathod2003:kuldiprathod2003@cluster0.wxqpikp.mongodb.net/?retryWrites=true&w=majority"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || "postgresql://new_me_user:NxZiXpipq57qqBJzXTckpeiJUwMy4mtd@dpg-crpkqmdds78s73dbf45g-a.oregon-postgres.render.com/new_me"
